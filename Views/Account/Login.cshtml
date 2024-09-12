@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Login";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] </title>
+    <link rel="stylesheet" href="~/css/Account.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <div class="form-container" id="login-form">
+            <form asp-action="Login" method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                <div class="title-form">
+                    <h1>Đăng Nhập</h1>
+                    <p>Chào mừng bạn trở lại</p>
+                </div>
+                <div class="input-group">
+                    <input placeholder="Tên Đăng Nhập" required />
+                    <input placeholder="Mật Khẩu" type="password" required />
+                </div>
+                <div class="checked-password">
+                    <input type="checkbox" id="show-password" />
+                    <label for="show-password">Hiển thị</label>
+                </div>
+                <div class="submit">
+                    <button type="submit">Đăng Nhập</button>
+                </div>
+                <p><a href="#">Quên mật khẩu?</a></p>
+                <p>Chưa có tài khoản? <a asp-controller="Account" asp-action="Register">Đăng Ký Ngay</a></p>
+                <div class="social-icon">
+                    <i class="fa-brands fa-google fa-lg"></i>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-github fa-lg"></i>
+                    <i class="fa-brands fa-twitch fa-lg"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
