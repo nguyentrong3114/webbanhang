@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using MyMvcApp.Models
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@{
+
+}
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="login-on">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="Identity" asp-controller="ManageAccount" asp-action="ManageAccount" title="Manage">Hello
+                    @User.Identity?.Name!</a>
+                <a href=""><i class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+                <form asp-area="Identity" asp-page="/Account/Logout"
+                    asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button type="submit">Logout</button>
+                </form>
+            </li>
+        </div>
+    }
+    else
+    {
+        <div class="login">
+            <a href=""><i class="fa-regular fa-user"></i></a>
+            <p><a asp-controller="Account" asp-action="Login">Login</a></p>
+            <p>/</p>
+            <p><a asp-controller="Account" asp-action="Register">Register</a></p>
+        </div>
+
+    }
+</ul>

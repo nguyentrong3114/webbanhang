@@ -1,0 +1,124 @@
+@{
+    ViewData["Title"] = "ManageAccount";
+}
+@{
+    Layout = null; 
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/ManageAccount.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div class="profile-container">
+        <div class="profile-navbar">
+            <div class="title">
+                <h2>CLOTHING</h2>
+            </div>
+            <div class="menu-parent">
+                <div class="menu-title">
+                    <h3>MENU</h3>
+                </div>
+                <div class="list-menu" id="list-menu">
+                    <div class="btn active">
+                        <i class="fa-solid fa-grip"></i>
+                        <p>Overview</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-lock"></i>
+                        <p>Password</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <p>History Trade</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-star"></i>
+                        <p>VIP</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-blog"></i>
+                        <p>Blog</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        <p>Log Out</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="menu-parent">
+                <div class="menu-title">
+                    <h3>SUPPORT</h3>
+                </div>
+                <div class="list-menu">
+                    <div class="btn">
+                        <i class="fa-solid fa-gear"></i>
+                        <p>Setting</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-solid fa-circle-question"></i>
+                        <p>Help</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-overview-profile">
+            <div class="left">
+                <div class="left-atribute">
+                    <div class="avatar">
+                        <img src="https://lh3.googleusercontent.com/d/1IBkPMaHKnXHyGn-PBZJN7wfoY4jy0P8k" alt="">
+                    </div>
+                    <div class="content">
+                        <p><strong>Nguyễn Trọng</strong></p>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            Upload Image
+                        </button>
+                    </div>
+                    <div class="vip-progress">
+                        <p>VIP 8</p>
+                        <input type="range" min="0" max="100" value="100" id="experience-range">
+                        <p>VIP 9</p>
+                    </div>
+                </div>
+                <div class="right">
+
+                </div>
+            </div>
+
+        </div>
+</body>
+<script>
+    const range = document.getElementById('experience-range');
+
+    range.addEventListener('input', function () {
+        const value = (range.value - range.min) / (range.max - range.min) * 100;
+        range.style.background = `linear-gradient(to right, #4caf50 ${value}%, #ddd ${value}%)`;
+    });
+
+   const select = document.getElementById('list-menu');
+    select.addEventListener('click', function (event) {
+        if (event.target.classList.contains('btn') || event.target.closest('.btn')) {
+            const items = select.getElementsByClassName('btn');
+            for (let item of items) {
+                item.classList.remove('active');
+            }
+
+            const btn = event.target.closest('.btn');
+            if (btn) {
+                btn.classList.add('active');
+            }
+        }
+    }); 
+</script>
+
+</html>

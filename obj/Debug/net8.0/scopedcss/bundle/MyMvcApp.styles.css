@@ -1,0 +1,248 @@
+/* _content/MyMvcApp/Views/Shared/_Layout.cshtml.rz.scp.css */
+*[b-ujr1yed5n4] {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+a[b-ujr1yed5n4] {
+  color: black;
+}
+
+.header[b-ujr1yed5n4] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+}
+
+.logo a[b-ujr1yed5n4] {
+  font-weight: bold;
+  margin: 0;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.navbar[b-ujr1yed5n4] {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar a[b-ujr1yed5n4] {
+  margin: 0;
+}
+
+.navbar a[b-ujr1yed5n4] {
+   text-decoration: none;
+   font-size: 18px;
+}
+
+.navbar a:hover[b-ujr1yed5n4] {
+  text-decoration: underline;
+}
+
+.dropdown[b-ujr1yed5n4] {
+  position: relative;
+}
+
+.dropbtn[b-ujr1yed5n4] {
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-menu[b-ujr1yed5n4] {
+  top: 35px;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  list-style-type: none;
+}
+
+.nav[b-ujr1yed5n4] {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.dropdown-menu li[b-ujr1yed5n4] {
+  margin: 0;
+}
+
+.dropdown-menu a[b-ujr1yed5n4] {
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu[b-ujr1yed5n4] {
+  display: block;
+  box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+}
+
+.login[b-ujr1yed5n4] {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 30px;
+}
+
+  .login p[b-ujr1yed5n4] {
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .login a[b-ujr1yed5n4] {
+      color: black;
+      text-decoration: none;
+      font-size: 16px;
+  }
+
+      .login a:hover[b-ujr1yed5n4] {
+          text-decoration: underline;
+      }
+/*Banner*/
+.Banner[b-ujr1yed5n4] {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .Banner img[b-ujr1yed5n4] {
+      width: 60%;
+      transition: transform 2s ease;
+  }
+
+      .Banner img:hover[b-ujr1yed5n4] {
+          transform: scale(1.09);
+      }
+/*New Products*/
+.new-products[b-ujr1yed5n4] {
+  text-align: center;
+  padding: 20px;
+}
+
+  .new-products i[b-ujr1yed5n4] {
+      color: red;
+  }
+
+  .new-products h2[b-ujr1yed5n4] {
+      color: red;
+  }
+
+.list-product[b-ujr1yed5n4] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product[b-ujr1yed5n4] {
+  padding: 20px;
+  margin: 20px;
+}
+
+.product button[b-ujr1yed5n4] {
+      padding: 5px 10px;
+      cursor: pointer
+}
+
+.product img[b-ujr1yed5n4] {
+      width: 300px;
+      height: 300px;
+}
+
+.new-products .btn button[b-ujr1yed5n4] {
+  padding: 14px 26px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+/*Footer*/
+
+.footer[b-ujr1yed5n4] {
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+  width: 100%;
+}
+
+.footer-header[b-ujr1yed5n4] {
+  width: 80%;
+}
+
+.footer hr[b-ujr1yed5n4] {
+  width: 80%;
+  margin: auto
+}
+
+.footer .footer-contact[b-ujr1yed5n4] {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+  .footer .footer-contact input[b-ujr1yed5n4] {
+      padding: 10px 20px;
+  }
+
+  .footer .footer-contact h2[b-ujr1yed5n4] {
+      padding-right: 20px;
+  }
+
+  .footer .footer-contact button[b-ujr1yed5n4] {
+      margin-left: 2px;
+      padding: 10px 20px;
+  }
+
+.footer .logo[b-ujr1yed5n4] {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon i[b-ujr1yed5n4] {
+  padding: 4px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.footer-content[b-ujr1yed5n4] {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding: 5px;
+}
+
+  .footer-content li[b-ujr1yed5n4] {
+      display: flex;
+      list-style: none;
+  }
+
+.col-1[b-ujr1yed5n4] {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.title[b-ujr1yed5n4] {
+  margin: 2px;
+}
+
+.list-content li[b-ujr1yed5n4] {
+  margin: 13px;
+  height: 40px;
+}
+
+.list-content span[b-ujr1yed5n4] {
+  padding-right: 4px;
+}
+
+.btn-more[b-ujr1yed5n4] {
+  text-align: center;
+}
+
+  .btn-more button[b-ujr1yed5n4] {
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 10px;
+  }
