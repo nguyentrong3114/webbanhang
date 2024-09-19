@@ -1,0 +1,1017 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MyMvcApi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyMvcApi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyMvcApi.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\css\\Account.css",
+      "PackagePath": "staticwebassets\\css\\Account.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\css\\DashBoard.css",
+      "PackagePath": "staticwebassets\\css\\DashBoard.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\css\\ManageAccount.css",
+      "PackagePath": "staticwebassets\\css\\ManageAccount.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\css\\ManageProfile.css",
+      "PackagePath": "staticwebassets\\css\\ManageProfile.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-easing\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-easing\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\MyMvcApi\\wwwroot\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyMvcApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyMvcApi.props",
+      "PackagePath": "build\\MyMvcApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyMvcApi.props",
+      "PackagePath": "buildMultiTargeting\\MyMvcApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyMvcApi.props",
+      "PackagePath": "buildTransitive\\MyMvcApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

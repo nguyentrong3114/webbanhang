@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.dashboard-container{
+    height: 900px;
+    display: flex;
+}
+.dashboard-navbar{
+    display: block;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dashboard-navbar .title{
+    display: flex;  
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-navbar .menu-parent{
+    padding: 20px;
+}
+.dashboard-navbar .btn{
+    display: flex;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+.dashboard-navbar .btn i{
+    margin-right: 30px;
+    width: 15px;
+}
+.dashboard-navbar .menu-title{
+    padding-bottom: 20px;
+}
+.list-menu .active{
+    color: #0F62FE;
+    background-color: rgba(0, 191, 255, 0.2);
+    border-left:3px solid blue;
+}
+.dashboard-navbar hr{
+    width: 80%;
+    margin: auto;
+}
+/* MAINDASHBOARD */
+.dashboard-main{
+    height: 100%;
+    width: 85%;
+}
+.header-dashboard-main{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-dashboard-main .title{
+    padding-left: 30px;
+} 
+.component-user-search{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ .input-place{
+    position: relative;
+    display: inline-block;
+}
+.component-user-search .search {
+    width: 150px;
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: width 0.4s ease;
+}
+.component-user-search .search:focus {
+    width: 300px; 
+    border-color: #0F62FE;
+    outline: none;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    transform: translateY(-50%);
+    font-size: 20px; 
+    color: #aaa;
+    cursor: pointer;
+}
+.component-user-search input{
+    height: 30px;
+    width: 200px;
+}
+.component-user-search  .noti {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.component-user-search .badge {
+    position: absolute;
+    top: -10px; 
+    right: 5px; 
+    background-color: red; 
+    color: white; 
+    border-radius: 50%;
+    padding: 2px 6px; 
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.component-user-search i{
+    padding: 0 20px;
+}
+.dashboard-container .user{
+    padding: 14px 0px;
+    border-radius: 41px;
+    border: 2px solid #0F62FE;;
+    cursor: pointer;
+}
+.top-choose-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.list-choose-time{
+    display: flex;
+}
+.list-choose-time .choose-time{
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+.list-choose-time .active{
+    color: #0F62FE;
+    border-bottom:2px solid #0F62FE;
+}
+.combobox-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.combobox-list-choose {
+    position: relative;
+    width: 200px;
+}
+.combobox-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    max-height: 150px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1;
+}
+
+.combobox-list div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.combobox-list div:hover {
+    background-color: #f0f0f0;
+}
+
+.combobox-list.active {
+    display: block;
+}
+.body-static{
+    width: 100%;
+}
+.list-static{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-static .static{
+    padding: 20px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px ;
+}
+.static .title-static{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.static .title-static h3{
+    padding-left: 10px;
+}
+.static .data-static{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.static .data-static p{
+    font-size: 30px ;
+}
+.static .data-static .compare-static p{
+    font-size: 18px !important;
+}
+.static .data-static .compare-static .persent{
+    margin: 2px;
+    display: flex;
+    padding-left: 3px;
+}
+.profit{
+    color: green;
+}
+.loss{
+    color:red;
+}
+.static .data-static .compare-static .persent p{
+    padding-left: 3px;
+}
+.btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/*Quản lí khách hàng*/
+.c {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+}
+.table-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+/*QLKH*/
+.body-static .action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-static .action button{
+    width: 100px;
+    height: 2.4rem;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.body-static .table-user{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-static .table-user table{
+    width: 86%;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.pagination a {
+    display: block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.pagination .dots {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}

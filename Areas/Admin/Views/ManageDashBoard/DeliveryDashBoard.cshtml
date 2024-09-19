@@ -1,0 +1,198 @@
+@{
+    ViewData["Title"] = "DeliveryDashBoard";
+}
+<link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet">
+<body>
+<div class="dashboard-main">
+    <div class="header-dashboard-main">
+        <div class="title">
+            <h2>Dashboard</h2>
+        </div>
+        <div class="component-user-search">
+            <div class="input-place">
+                <input type="text" class="search" placeholder="Tìm Kiếm">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+            <div class="noti">
+                <i class="fa-solid fa-bell fa-lg"></i>
+                <div class="badge">3</div>
+            </div>
+            <div class="user">
+                <i class="fa-solid fa-user fa-lg"></i>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="nav-dashboard-main">
+        <div class="top-choose-time">
+            <div class="list-choose-time">
+                <div class="choose-time active">
+                    <p>Last 24 hour</p>
+                </div>
+                <div class="choose-time">
+                    <p>Last weeks</p>
+                </div>
+                <div class="choose-time">
+                    <p>Last month</p>
+                </div>
+                <div class="choose-time">
+                    <p>Last year</p>
+                </div>
+            </div>
+            <div class="combobox-list-choose">
+                <input type="input" class="combobox-input" placeholder="Select ">
+                <div class="combobox-list">
+                    <div>Option 1</div>
+                    <div>Option 2</div>
+                    <div>Option 3</div>
+                    <div>Option 4</div>
+                </div>
+            </div>
+        </div>
+        <div class="body-static">
+            <div class="list-static">
+                <div class="static">
+                    <div class="title-static">
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>Total Order</h3>
+                    </div>
+                    <div class="data-static">
+                        <p>5.000</p>
+                        <div class="compare-static">
+                            <div class="persent profit">
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                <p>15%</p>
+                            </div>
+                            <p>vs last 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="static">
+                    <div class="title-static">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <h3>Total Money</h3>
+                    </div>
+                    <div class="data-static">
+                        <p>$70.000</p>
+                        <div class="compare-static">
+                            <div class="persent profit">
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                <p>15%</p>
+                            </div>
+                            <p>vs last 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="static">
+                    <div class="title-static">
+                        <i class="fa-solid fa-truck"></i>
+                        <h3>Total Delivered</h3>
+                    </div>
+                    <div class="data-static">
+                        <p>1.000</p>
+                        <div class="compare-static">
+                            <div class="persent profit">
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                <p>15%</p>
+                            </div>
+                            <p>vs last 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="static">
+                    <div class="title-static">
+                        <i class="fa-solid fa-truck"></i>
+                        <h3>Being Delivered</h3>
+                    </div>
+                    <div class="data-static">
+                        <p>4.000</p>
+                        <div class="compare-static">
+                            <div class="persent profit">
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                <p>15%</p>
+                            </div>
+                            <p>vs last 7 days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="action">
+                <button>Làm Mới</button>
+                <button>Hủy Giao</button>
+            </div>
+            <div class="table-user">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Mã Giao Hàng</th>
+                            <th>Họ Tên Khách Hang</th>
+                            <th>Sản Phẩm</th>
+                            <th>Ghi Chú</th>
+                            <th>Trạng Thái</th>
+                            <th>Ngày Giao</th>
+                            <th>Ngày Nhân Dự Kiến</th>
+                            <th>Ngày Nhận Thực Tế</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td class="">MGH001</td>
+                            <td class="">Nguyễn Văn A</td>
+                            <td class="">Tương Ớt</td>
+                            <td class="">Dễ Vỡ</td>
+                            <td class="">Đang Giao</td>
+                            <td class="">19/08/2024</td>
+                            <td class="">20/9/2022</td>
+                            <td class="">Đang Trên Đường Tới</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td class="">MGH001</td>
+                            <td class="">Nguyễn Văn A</td>
+                            <td class="">Tương Ớt</td>
+                            <td class="">Dễ Vỡ</td>
+                            <td class="">Đang Giao</td>
+                            <td class="">19/08/2024</td>
+                            <td class="">20/9/2022</td>
+                            <td class="">Đang Trên Đường Tới</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="pagination">
+            <a href="#" class="prev">«</a>
+            <a href="#" class="page active">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <a href="#" class="page">4</a>
+            <a href="#" class="page">5</a>
+            <a href="#" class="dots">...</a>
+            <div class="dropdown-menu">
+            </div>
+            <a href="#" class="page">99</a>
+            <a href="#" class="next">»</a>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    const select = document.getElementById('list-menu');
+    select.addEventListener('click', function (event) {
+
+        if (event.target.classList.contains('btn') || event.target.closest('.btn')) {
+
+            const items = select.getElementsByClassName('btn');
+            for (let item of items) {
+                item.classList.remove('active');
+            }
+
+            const btn = event.target.closest('.btn');
+            if (btn) {
+                btn.classList.add('active');
+            }
+        }
+    }); 
+</script>

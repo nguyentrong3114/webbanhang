@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    height: 90vh;
+}
+
+.title-form {
+    text-align: center
+}
+
+.container form {
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    font-size: 35px;
+}
+
+.input-group {
+    text-align: center;
+    display: block;
+}
+
+    .input-group input {
+        margin: 14px;
+        margin-bottom: 20px;
+        height: 40px;
+        width: 80%;
+        padding: 20px;
+    }
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit button {
+    margin: 18px;
+    font-size: 24px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+.checked-password {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 52px;
+}
+
+    .checked-password span {
+        margin: 3px;
+    }
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+    .social-icon i {
+        padding: 4px;
+        margin: 8px;
+        cursor: pointer;
+    }
+    .text-danger{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        color: red;
+    }
+/*Half*/

@@ -1,0 +1,35 @@
+@using Microsoft.AspNetCore.Identity
+@using MyMvcApi.Models
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@{
+
+}
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="login-on">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="User" asp-controller="ManageProfile" asp-action="ManageProfile"
+                    title="Manage">Hello
+                    @User.Identity?.Name!</a>
+                <a href=""><i class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+                <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" class="form-inline">
+                    <button type="submit" class="btn btn-link">Logout</button>
+                </form>
+            </li>
+        </div>
+    }
+    else
+    {
+        <div class="login">
+            <a href=""><i class="fa-regular fa-user"></i></a>
+            <p><a asp-controller="Account" asp-action="Login">Login</a></p>
+            <p>/</p>
+            <p><a asp-controller="Account" asp-action="Register">Register</a></p>
+        </div>
+
+    }
+</ul>

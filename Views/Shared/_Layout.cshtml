@@ -1,0 +1,170 @@
+﻿@{
+    var loginPartial = await Html.PartialAsync("_LoginPartial");
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <link href="~/lib/sb-admin-2/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/MyMvcApi.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div class="home-container">
+        <div class="header">
+            <div class="logo">
+                <h1><a href="/Home/Index">CLOTHING</a></h1>
+            </div>
+            <div class="navbar">
+                <p><a asp-controller="Home" asp-action="Index" class="nav">Home</a></p>
+                <p><a href="" class="nav">About</a></p>
+                <div class=" nav dropdown">
+                    <p class="dropbtn"><a href="">Clothes</a></p>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Quần</a></li>
+                        <li><a href="#">Áo</a></li>
+                        <li><a href="#">Đồ trẻ em</a></li>
+                    </ul>
+                </div>
+                <p><a href="" class="nav">Contact</a></p>
+                <p><a href="" class="nav">Help</a></p>
+            </div>
+            @loginPartial
+
+        </div>
+    </div>
+    <div class="container-1">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="footer">
+        <div class="foot-header">
+            <div class="footer-contact">
+                <div class="logo">
+                    <h2>Contact</h2>
+                    <input type="text" placeholder="Email">
+                    <button>Send</button>
+                </div>
+
+                <div class="social-icon">
+                    <i class="fa-brands fa-google fa-lg"></i>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-github fa-lg"></i>
+                    <i class="fa-brands fa-twitch fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-content">
+            <div class="col-1 content">
+                <div class="title">
+                    <h3>GIỚI THIỆU</h3>
+                </div>
+                <div class="list-content">
+                    <li>
+                        <p>160STORE - Chuỗi Phân Phối Thời Trang Nam Chuẩn Hiệu</p>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <p>+84 379723024</p>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <p>nguyensangtrong31012004@gmail.com</p>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-clock"></i></span>
+                        <p>Start at 8-22 p.m</p>
+                    </li>
+                </div>
+            </div>
+            <div class="col-1 content">
+                <div class="title">
+                    <h3>CỬU HÀNG</h3>
+                </div>
+                <div class="list-content">
+                    <li>
+                        <span><i><i class="fa-solid fa-store"></i></i></span>
+                        <p>34 Nguyễn Sáng, Phường Tây Thạnh, Quận Tân Phú, HCM</p>
+                    </li>
+                    <li>
+                        <span><i><i class="fa-solid fa-store"></i></i></span>
+                        <p>110 Tuệ Tĩnh, Quận 11,HCM</p>
+                    </li>
+                    <li>
+                        <span><i><i class="fa-solid fa-store"></i></i></span>
+                        <p>Nguyễn Gia Trí, Quận Bình Thạnh, HCM</p>
+                    </li>
+                    <li>
+                        <span><i><i class="fa-solid fa-store"></i></i></span>
+                        <p>Hoàng Văn Thụ, Quận Tân Bình, HCM</p>
+                    </li>
+                </div>
+                <div class="btn-more">
+                    <button>See More!</button>
+                </div>
+            </div>
+            <div class="col-1 content">
+                <div class="title">
+                    <h3>MẠNG XÃ HỘI</h3>
+                </div>
+                <div class="list-content">
+                    <li>
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <a href="">https://www.facebook.com/</a>
+                    </li>
+                    <li>
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <a href="">https://www.facebook.com/</a>
+                    </li>
+                    <li>
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <a href="">https://www.facebook.com/</a>
+                    </li>
+                    <li>
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <a href="">https://www.facebook.com/</a>
+                    </li>
+                </div>
+            </div>
+            <div class="col-1 content">
+                <div class="title">
+                    <div class="title">
+                        <h3>MẠNG XÃ HỘI</h3>
+                    </div>
+                    <div class="list-content">
+                        <li>
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                            <a href="">https://www.facebook.com/</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                            <a href="">https://www.facebook.com/</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                            <a href="">https://www.facebook.com/</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                            <a href="">https://www.facebook.com/</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

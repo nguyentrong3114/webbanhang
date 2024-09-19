@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Register";
+}
+@model MyMvcApi.Models.RegisterViewModel;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet">
+
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <link rel="stylesheet" href="~/css/Account.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+
+<body>
+    <div class="container">
+        <form asp-action="Register" method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
+            <div class="form-container" id="sign-up-form">
+                <div class="title-form">
+                    <h1>Đăng Ký</h1>
+                    <p>Hãy tạo tài khoản mới</p>
+                </div>
+                <div class="input-group">
+                    <input asp-for="UserName" placeholder="Tên Đăng Nhập" required />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                    <input asp-for="Password" placeholder="Mật Khẩu" type="password" required />
+                    <p asp-validation-for="Password" class="text-danger"></p>
+                    <input asp-for="ConfirmPassword" placeholder="Xác Nhận Mật Khẩu" type="password" required />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger">
+                        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                    </div>
+                }
+                <div class="submit">
+                    <button type="submit">Đăng Ký</button>
+                </div>
+                <p>Đã có tài khoản? <a asp-controller="Account" asp-action="Login">Đăng Nhập Ngay</a></p>
+            </div>
+        </form>
+    </div>
+</body>

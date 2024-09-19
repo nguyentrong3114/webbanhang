@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="~/lib/sb-admin-2/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/MyMvcApi.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/DashBoard.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-navbar">
+            <div class="title">
+                <h2>CLOTHING</h2>
+            </div>
+            <div class="menu-parent">
+                <div class="menu-title">
+                    <h3>MENU</h3>
+                </div>
+                <div class="list-menu" id="list-menu">
+                    <form id="overview-btn" asp-area="Admin" asp-controller="ManageDashBoard"
+                        asp-action="OverviewDashBoard" method="post" class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>Overview</p>
+                        </button>
+                    </form>
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="ProductDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-suitcase"></i>
+                            <p>Product</p>
+                        </button>
+                    </form>
+                    <form id="overview-btn" asp-area="Admin" asp-controller="ManageDashBoard"
+                        asp-action="DeliveryDashBoard" method="post" class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Delivery</p>
+                        </button>
+                    </form>
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="CustomerDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-people-group"></i>
+                            <p>Customer</p>
+                        </button>
+                    </form>
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="ProductDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-file"></i>
+                            <p>Transaction</p>
+                        </button>
+                    </form>
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="ProductDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <p>Statistics</p>
+                        </button>
+                    </form>
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="ProductDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-user"></i>
+                            <p>Role</p>
+                        </button>
+                    </form>
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="ProductDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Log Activity</p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="menu-parent">
+                <div class="menu-title">
+                    <h3>SUPPORT</h3>
+                </div>
+                <div class="list-menu" id="list-menu">
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="ProductDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Setting</p>
+                        </button>
+                    </form>
+                    <form asp-area="Admin" asp-controller="ManageDashBoard" asp-action="ProductDashBoard" method="post"
+                        class="btn">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <p>Help</p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+    </div>
+</body>
+<script>
+    const comboboxInput = document.querySelector('.combobox-input');
+    const comboboxList = document.querySelector('.combobox-list');
+    const options = document.querySelectorAll('.combobox-list div');
+
+    comboboxInput.addEventListener('focus', () => {
+        comboboxList.classList.add('active');
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('.combobox-list-choose')) {
+            comboboxList.classList.remove('active');
+        }
+    });
+
+    options.forEach(option => {
+        option.addEventListener('click', () => {
+            comboboxInput.value = option.textContent;
+            comboboxList.classList.remove('active');
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('list-menu');
+
+
+    select.addEventListener('click', function(event) {
+
+        const btn = event.target.closest('.btn');
+        
+        if (btn) {
+            
+            const items = select.getElementsByClassName('btn');
+            for (let item of items) {
+                item.classList.remove('active');
+            }
+            
+
+            btn.classList.add('active');
+        }
+    });
+});
+
+</script>
+
+</html>

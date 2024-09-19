@@ -1,0 +1,123 @@
+*[b-4km6mxeohm]{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-container[b-4km6mxeohm]{
+    height: 800px;
+    display: flex;
+}
+.profile-navbar[b-4km6mxeohm]{
+    display: block;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-navbar .title[b-4km6mxeohm]{
+    display: flex;  
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.profile-navbar .menu-parent[b-4km6mxeohm]{
+    padding: 20px;
+}
+.profile-navbar .btn[b-4km6mxeohm]{
+    display: flex;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s
+}
+.profile-navbar .btn i[b-4km6mxeohm]{
+    margin-right: 30px;
+    width: 15px;
+}
+.profile-navbar .menu-title[b-4km6mxeohm]{
+    padding-bottom: 20px;
+}
+.list-menu .active[b-4km6mxeohm]{
+    color: #0F62FE;
+    background-color: rgba(0, 191, 255, 0.2);
+    border-left:3px solid blue;
+}
+.profile-navbar hr[b-4km6mxeohm]{
+    width: 80%;
+    margin: auto;
+}
+/*-------------- */
+.content-overview-profile[b-4km6mxeohm]{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+.content-overview-profile .left[b-4km6mxeohm] {
+    width: 25%;
+}
+.content-overview-profile .left .avatar[b-4km6mxeohm]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+}
+.content-overview-profile .left .content[b-4km6mxeohm]{
+    display: flex;
+    justify-content: center;
+}
+.content-overview-profile .left .btn[b-4km6mxeohm]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-overview-profile .left button[b-4km6mxeohm]{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.content-overview-profile .left .avatar img[b-4km6mxeohm]{
+    width: 200px;
+}
+.content-overview-profile .right[b-4km6mxeohm]{
+    width: 75%;
+}   
+.vip-progress[b-4km6mxeohm]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vip-progress p[b-4km6mxeohm]{
+    padding: 7px 8px;
+}
+/*Input -range*/
+input[type="range"][b-4km6mxeohm]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0; /* Ẩn hoàn toàn thumb */
+    height: 0;
+}
+
+/* Thanh chính của range */
+input[type="range"][b-4km6mxeohm] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 60%;
+    height: 8px; /* Độ dày của thanh */
+    background: #ddd; /* Màu nền của thanh */
+    border-radius: 5px; /* Bo góc thanh */
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+/* Thanh màu của giá trị range (phần đã điền) */
+input[type="range"][b-4km6mxeohm]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #4caf50 50%, #ddd 50%); /* Màu của thanh kinh nghiệm */
+    height: 8px;
+    border-radius: 5px;
+}
